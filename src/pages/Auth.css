@@ -1,0 +1,37 @@
+
+.logg{
+    border: solid white;
+    border-radius: 4px;
+    height: 50svh;
+    width: 90svh;
+    position: absolute;
+    top:25%;
+    left: 28%;
+    backdrop-filter:blur(7px);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#lgh{
+    transform: scale(.5);
+    position: absolute;
+    top: -15%;
+    left: 19%;
+    padding: 20px;
+}
+.cont-{
+    position: relative;
+    top: 25%;
+    padding: 140px;
+}
+#empb{
+     background-color: burlywood;
+     color: white;
+     padding: 20px;
+     border-radius: 5px;
+     transition: .3s;
+}
+#empb:hover{
+    transform: scale(1.1);
+transition: .5s;
+background-color: hsl(34, 57%, 60%); 
+}

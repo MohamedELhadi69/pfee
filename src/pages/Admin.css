@@ -1,0 +1,115 @@
+
+@keyframes app{
+  to {opacity: 1}
+}
+@keyframes hid {
+ 
+  to {
+    opacity: 0;
+  }
+}
+.jk{
+  opacity: 0;
+  animation-name: app;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+ }
+.lod{
+  transform: translateX(0);
+  animation-name: hid;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+margin-top:150px;
+}
+#ldd{
+position: relative;
+left: 55%;
+top: 90%;
+}
+
+.container {
+    display: flex;
+  position: fixed;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-left: 80px;
+
+  }
+  .card {
+    position: relative;
+z-index: 999;
+margin: 50px;
+height: 60svh;
+width: 25svw;
+    margin-bottom: 130svh;
+    overflow: hidden;
+    border-radius: 10px;
+border: 1px solid black;
+perspective: 1000px;
+
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+     }
+  .card:hover .overlay {
+    opacity: 1;
+    z-index: 999;
+  }
+  .card:hover .cub{
+    filter: blur(5px);
+  }
+  .cub{
+    height: 60svh;
+width: 25svw;
+background-color: white;
+  }
+  .overlay p {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+  }
+  #art{
+    height: 350px;
+    width: auto;
+    padding: 20px;
+    margin-left: 40px;
+    margin-top: 40px;
+  }
+  .kk{
+    position: absolute;
+    top: 6%;
+    left: 88%;
+    border-radius: 4px;
+    background-color: burlywood;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 15px;
+  }
+  .kk:hover{
+  transform: scale(1.1);
+  transition: .3s;
+  background-color: hsl(34, 57%, 60%);
+  }
+  .wlcm{
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    font-weight: bolder;
+  }
+ .mng{
+  font-size:35px;
+  margin-top: 150px;
+  margin-left: 55px;
+  font-weight: bolder;
+  color: white;
+ }

@@ -1,0 +1,89 @@
+#pr{
+    height: 15%;
+    width: 15%;
+    position: relative;
+    top:20%;
+    left:91svw;
+    margin: 20px;
+  }
+  #logooo{
+    position: relative;
+    height: 25%;
+    width: 25%;
+    left: 80svw;
+    margin-top: -70px;
+
+  }
+.forrm-container {
+    position: relative;
+    width: 60svw;
+      margin:30px;
+      padding: 20px;
+      border: 2px solid #ffffff;
+      border-radius: 8px;
+     color: white;
+     height: fit-content;
+     margin-top: 120px;
+     margin-left: 20svw;
+     backdrop-filter:blur(7px);
+     background-color: rgba(255, 255, 255, 0.2);
+    }
+    label {
+      font-weight: bold;
+      padding: 20px;
+      margin-left: -10px;
+    }
+    #nom{
+     height: 40px;
+     width: 20svw;
+     border-radius: 4px;
+     margin-bottom: 30px;
+     }
+     .lblnom{
+        margin-left:-15px ;
+     }
+     #prenom{
+        height: 40px;
+        width: 20svw;
+        border-radius: 4px;
+       margin-right: 132px;
+     }
+     #eml{
+        height: 40px;
+        width: 40svw;
+        border-radius: 4px;
+     }
+    #Role{
+        height: 40px;
+        width: auto;
+        border-radius: 4px;
+        color: black;
+        margin-bottom: 30px;
+    }
+    #Pass{
+        height: 40px;
+        width: 20svw;
+        border-radius: 4px;
+        color: black;
+        margin-bottom: 30px;
+        border: 2px solid transparent;
+    }
+    #Pass2{
+        height: 40px;
+        width: 20svw;
+        border-radius: 4px;
+        color: black;
+      border: 2px solid transparent;
+    }
+ 
+    
+    #pt{
+     margin-left: 255px;
+     margin-bottom: 30px;
+    }
+    .fll{
+      width:100%;
+      display: flex;
+      justify-content: center;
+    }
+   

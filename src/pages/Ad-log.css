@@ -1,0 +1,70 @@
+
+.log{
+    border: solid white;
+    border-radius: 4px;
+    height: 70svh;
+    width: 70svh;
+    position: absolute;
+    top:15%;
+    left: 32%;
+    backdrop-filter:blur(7px);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.logForm{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: absolute;
+    top: 30%;
+    padding-top: 50px;
+
+}
+#lg{
+    transform: scale(.5);
+    position: absolute;
+    top: -10%;
+    left: 12%;
+    padding: 20px;
+}
+#Username{
+    height: 40px;
+    width:50svh;
+color: black;
+margin-bottom: 30px;
+border-radius: 5px;
+transition: .3s;
+}
+#Username:focus{
+ transform: scale(1.1);
+ transition: .5s;
+}
+#Password{
+    height: 40px;
+    width:50svh;
+color: black;
+margin-bottom: 30px;
+border-radius: 5px;
+transition: .3s;
+}
+#Password:focus{
+transform: scale(1.1);
+transition: .5s;
+}
+#log-but{
+   padding: 15px;
+   padding-left: 30px;
+   padding-right: 30px;
+   background-color: burlywood;
+   width: fit-content;
+   font-weight: bold;
+   position: absolute;
+   left: 45%;
+   top: 105%;
+   border-radius: 5px;
+}
+#log-but:hover{
+transform: scale(1.1);
+transition: .5s;
+background-color: hsl(34, 57%, 60%); 
+}

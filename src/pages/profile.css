@@ -1,0 +1,25 @@
+@keyframes appear{
+    to {opacity:1}
+}
+@keyframes hiddn{
+   to {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+}
+
+
+.loadi{
+    position: absolute;
+    z-index: 999;
+    top: 30svh;
+    left: 23svw;
+    animation: hiddn forwards;
+    animation-delay: 2s;
+    transform: translateX(0px);
+}
+.main{
+    opacity: 0;
+    animation: appear forwards;
+    animation-delay: 2s;
+}
